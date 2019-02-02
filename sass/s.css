@@ -1,0 +1,36 @@
+.wrapper {
+  display: grid;
+  gap: 10px;
+  grid-template-columns: 3fr 1fr;
+  grid-template-rows: 1fr 5fr 1fr; }
+  .wrapper div {
+    font-size: 80px;
+    text-align: center;
+    border: solid; }
+
+.head {
+  grid-column: 1 / 3;
+  background: #ddd;
+  background-image: linear-gradient(to top right, transparent 49%, black 49%, black 50%, transparent 50%, transparent); }
+
+.main {
+  padding: 10px;
+  background: #ddd;
+  display: grid;
+  gap: 10px;
+  grid-template-columns: 1fr 1fr; }
+  .main div {
+    height: 300px;
+    background: #ddd;
+    background-image: linear-gradient(to top right, transparent 49%, black 49%, black 50%, transparent 50%, transparent); }
+
+.menu {
+  background: #ddd;
+  background-image: linear-gradient(to top right, transparent 49%, black 49%, black 50%, transparent 50%, transparent); }
+
+.foot {
+  grid-column: 1 / 3;
+  background: #ddd;
+  background-image: linear-gradient(to top right, transparent 49%, black 49%, black 50%, transparent 50%, transparent); }
+
+/*# sourceMappingURL=s.css.map */
